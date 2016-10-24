@@ -29,10 +29,10 @@ namespace cw1_cs
             InitializeComponent();
         }
 
-        Attendee attendee1 = new Attendee();
+        Attendee attendee1 = new Attendee(); //publicly accessible attendee object. does it go somewhere else?
         private void btn_set_Click(object sender, RoutedEventArgs e)
         {
-            //create new attendee object and set the parameters to user input
+            //set the parameters to user input and catch some exceptions (if any)
             try
             {
                 attendee1.AttendeeRef = Int32.Parse(txtbox_ref.Text);
@@ -77,6 +77,7 @@ namespace cw1_cs
             {
                 attendee1.Paid = true;
             }
+
             attendee1.Presenter = false;
             if (cbox_presenter.IsChecked.Value)
             {
@@ -96,6 +97,7 @@ namespace cw1_cs
 
         private void btn_clear_Click(object sender, RoutedEventArgs e)
         {
+            //clean up
             txtbox_firstn.Clear();
             txtbox_lastn.Clear();
             txtbox_ref.Clear();
@@ -105,7 +107,35 @@ namespace cw1_cs
             txtbox_paper.Clear();
             cbox_paid.IsChecked = false;
             cbox_presenter.IsChecked = false;
+        }
 
+        private void btn_get_Click(object sender, RoutedEventArgs e)
+        {
+            //load values from attendee1 into the textboxes and checkboxes
+            txtbox_firstn.Text = attendee1.FirstName;
+            txtbox_lastn.Text = attendee1.SecondName;
+            txtbox_ref.Text = Convert.ToString(attendee1.AttendeeRef);
+            txtbox_institution.Text = attendee1.InstitutionName;
+            txtbox_conference.Text = attendee1.ConferenceName;
+            txtbox_regtype.Text = attendee1.RegistrationType;
+            txtbox_paper.Text = attendee1.PaperTitle;
+            if(attendee1.Paid == true)
+            {
+                cbox_paid.IsChecked = true;
+            } 
+            else
+            {
+                cbox_paid.IsChecked = false;
+            }
+
+            if (attendee1.Presenter == true)
+            {
+                cbox_presenter.IsChecked = true;
+            }
+            else
+            {
+                cbox_presenter.IsChecked = false;
+            }
         }
     }
 }
