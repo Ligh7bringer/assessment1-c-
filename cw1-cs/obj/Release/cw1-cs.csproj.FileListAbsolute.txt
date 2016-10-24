@@ -1,0 +1,16 @@
+D:\Projects\cw1-cs\cw1-cs\bin\Release\cw1-cs.exe.config
+D:\Projects\cw1-cs\cw1-cs\obj\Release\MainWindow.g.cs
+D:\Projects\cw1-cs\cw1-cs\obj\Release\App.g.cs
+D:\Projects\cw1-cs\cw1-cs\obj\Release\cw1-cs_MarkupCompile.cache
+D:\Projects\cw1-cs\cw1-cs\obj\Release\cw1-cs_MarkupCompile.lref
+D:\Projects\cw1-cs\cw1-cs\bin\Release\cw1-cs.exe
+D:\Projects\cw1-cs\cw1-cs\bin\Release\cw1-cs.pdb
+D:\Projects\cw1-cs\cw1-cs\obj\Release\MainWindow.baml
+D:\Projects\cw1-cs\cw1-cs\obj\Release\cw1-cs.g.resources
+D:\Projects\cw1-cs\cw1-cs\obj\Release\cw1_cs.Properties.Resources.resources
+D:\Projects\cw1-cs\cw1-cs\obj\Release\cw1-cs.csproj.GenerateResource.Cache
+D:\Projects\cw1-cs\cw1-cs\obj\Release\cw1-cs.exe
+D:\Projects\cw1-cs\cw1-cs\obj\Release\cw1-cs.pdb
+D:\Dropbox\programming\cw1-2017\cw1-cs\bin\Release\cw1-cs.exe.config
+D:\Dropbox\programming\cw1-2017\cw1-cs\obj\Release\cw1-cs.exe
+D:\Dropbox\programming\cw1-2017\cw1-cs\obj\Release\cw1-cs.pdb
