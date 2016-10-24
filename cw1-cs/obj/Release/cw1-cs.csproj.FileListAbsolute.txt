@@ -14,3 +14,6 @@ D:\Projects\cw1-cs\cw1-cs\obj\Release\cw1-cs.pdb
 D:\Dropbox\programming\cw1-2017\cw1-cs\bin\Release\cw1-cs.exe.config
 D:\Dropbox\programming\cw1-2017\cw1-cs\obj\Release\cw1-cs.exe
 D:\Dropbox\programming\cw1-2017\cw1-cs\obj\Release\cw1-cs.pdb
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\bin\Release\cw1-cs.exe.config
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs.exe
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs.pdb

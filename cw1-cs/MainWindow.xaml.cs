@@ -13,11 +13,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+/********************************************************************************
+* Author: Svetlozar Georgiev, 40203970                                          *
+* Date of last change: 08/10/2017                                               *
+* Main window                                                                   *
+* Handles adding of attendees, gettin certificates and invoices                 *
+********************************************************************************/
+
 namespace cw1_cs
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
