@@ -17,3 +17,14 @@ D:\Dropbox\programming\cw1-2017\cw1-cs\obj\Release\cw1-cs.pdb
 C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\bin\Release\cw1-cs.exe.config
 C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs.exe
 C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs.pdb
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\bin\Release\cw1-cs.exe
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\bin\Release\cw1-cs.pdb
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs.csprojResolveAssemblyReference.cache
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\MainWindow.g.cs
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\App.g.cs
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs_MarkupCompile.cache
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs_MarkupCompile.lref
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\MainWindow.baml
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs.g.resources
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1_cs.Properties.Resources.resources
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Release\cw1-cs.csproj.GenerateResource.Cache

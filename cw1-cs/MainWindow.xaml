@@ -17,14 +17,14 @@
         <Label x:Name="label_Copy6" Content="Paper title" HorizontalAlignment="Left" Margin="19,227,0,0" VerticalAlignment="Top" Width="111"/>
         <TextBox x:Name="txtbox_ref" HorizontalAlignment="Left" Height="23" Margin="147,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtbox_institution" HorizontalAlignment="Left" Height="23" Margin="147,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtbox_conferencen" HorizontalAlignment="Left" Height="23" Margin="147,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtbox_conference" HorizontalAlignment="Left" Height="23" Margin="147,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtbox_regtype" HorizontalAlignment="Left" Height="23" Margin="147,136,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtbox_paper" HorizontalAlignment="Left" Height="23" Margin="147,229,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtbox_firstn" HorizontalAlignment="Left" Height="23" Margin="147,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <CheckBox x:Name="cbox_paid" Content="" HorizontalAlignment="Left" Margin="149,170,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="cbox_presenter" Content="" HorizontalAlignment="Left" Margin="149,201,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btn_set" Content="Set" HorizontalAlignment="Left" Margin="19,273,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="114,273,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_set" Content="Set" HorizontalAlignment="Left" Margin="19,273,0,0" VerticalAlignment="Top" Width="75" Click="btn_set_Click"/>
+        <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="114,273,0,0" VerticalAlignment="Top" Width="75" Click="btn_clear_Click"/>
         <Button x:Name="btn_get" Content="Get" HorizontalAlignment="Left" Margin="212,273,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="btn_invoice" Content="Invoice" HorizontalAlignment="Left" Margin="309,273,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="btn_cert" Content="Certificate" HorizontalAlignment="Left" Margin="406,273,0,0" VerticalAlignment="Top" Width="75"/>
