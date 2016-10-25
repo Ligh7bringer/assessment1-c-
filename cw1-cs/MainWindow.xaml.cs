@@ -72,8 +72,17 @@ namespace cw1_cs
                 MessageBox.Show(ex.Message);
             }
 
+            try
+            {
+                attendee1.RegistrationType = txtbox_regtype.Text;
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
             attendee1.Paid = false;
-            if(cbox_paid.IsChecked.Value)
+            if (cbox_paid.IsChecked.Value)
             {
                 attendee1.Paid = true;
             }
@@ -92,7 +101,8 @@ namespace cw1_cs
             {
                 MessageBox.Show(ex.Message);
             }
-            
+
+
         }
 
         private void btn_clear_Click(object sender, RoutedEventArgs e)
@@ -137,5 +147,24 @@ namespace cw1_cs
                 cbox_presenter.IsChecked = false;
             }
         }
+
+        private void btn_invoice_Click(object sender, RoutedEventArgs e)
+        {
+            Invoice InvoiceWin = new Invoice();
+
+            //create invoice window, find it and change values in it
+            foreach (Window window in Application.Current.Windows)
+            {
+                if (window.GetType() == typeof(Invoice))
+                {
+                    (window as Invoice).lbox_fname.Items.Add(attendee1.FirstName + " " + attendee1.SecondName);
+                    (window as Invoice).lbox_institution.Items.Add(attendee1.InstitutionName);
+                    (window as Invoice).lbox_conference.Items.Add(attendee1.ConferenceName);
+                    (window as Invoice).lbox_price.Items.Add(attendee1.getCost());
+                }
+            }
+            //show window and display stuff
+            InvoiceWin.ShowDialog();
+        }        
     }
 }

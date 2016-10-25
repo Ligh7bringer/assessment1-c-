@@ -26,7 +26,7 @@
         <Button x:Name="btn_set" Content="Set" HorizontalAlignment="Left" Margin="19,273,0,0" VerticalAlignment="Top" Width="75" Click="btn_set_Click"/>
         <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="114,273,0,0" VerticalAlignment="Top" Width="75" Click="btn_clear_Click"/>
         <Button x:Name="btn_get" Content="Get" HorizontalAlignment="Left" Margin="212,273,0,0" VerticalAlignment="Top" Width="75" Click="btn_get_Click"/>
-        <Button x:Name="btn_invoice" Content="Invoice" HorizontalAlignment="Left" Margin="309,273,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_invoice" Content="Invoice" HorizontalAlignment="Left" Margin="309,273,0,0" VerticalAlignment="Top" Width="75" Click="btn_invoice_Click"/>
         <Button x:Name="btn_cert" Content="Certificate" HorizontalAlignment="Left" Margin="406,273,0,0" VerticalAlignment="Top" Width="75"/>
         <TextBox x:Name="txtbox_lastn" HorizontalAlignment="Left" Height="23" Margin="309,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 

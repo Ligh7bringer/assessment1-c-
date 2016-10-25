@@ -34,7 +34,7 @@ namespace cw1_cs
             {
                 if(value < 40000 || value > 60000)
                 {
-                    throw new ArgumentException("Number must be in the range 40000 - 60000");
+                    throw new ArgumentException("Attendee Reference must be in the range 40000 - 60000");
                 } 
                 attendeeref = value;
             }
@@ -60,7 +60,7 @@ namespace cw1_cs
             {
                 if(String.IsNullOrEmpty(value))
                 {
-                    throw new ArgumentException("Second name is a mandatory field.");
+                    throw new ArgumentException("Last name is a mandatory field.");
                 }
                 secondname = value;
             }
@@ -90,10 +90,14 @@ namespace cw1_cs
             get { return registrationtype; }
             set
             {
-                if(!value.Equals("full") || !value.Equals("student") || !value.Equals("organiser"))
+                if (value.Trim().Equals("full") || value.Trim().Equals("student") || value.Trim().Equals("organiser"))
                 {
-                    throw new ArgumentException("Possible values for Registration Type: full, student, organiser.");
-                }
+                    registrationtype = value;                    
+                } 
+                else
+                {
+                    throw new ArgumentException("Possible values for Registration Type fields: full, student, organiser.");
+                }               
             }
         }
 
@@ -114,7 +118,7 @@ namespace cw1_cs
             get { return papertitle; }
             set
             {
-                if((Presenter && String.IsNullOrEmpty(value)) || (!Presenter && !String.IsNullOrEmpty(value)))
+                if((Presenter && String.IsNullOrWhiteSpace(value)) || (!Presenter && !String.IsNullOrWhiteSpace(value)))
                 {
                     throw new ArgumentException("Paper Title does not have a valid value.");
                 }
@@ -127,20 +131,22 @@ namespace cw1_cs
         {
             double result = 0;
 
-            if (RegistrationType.Equals("full"))
+            if (RegistrationType.Trim().Equals("full"))
             {
                 result = 500;
-            } else if(RegistrationType.Equals("student"))
+            }
+            else if(RegistrationType.Trim().Equals("student"))
             {
                 result = 300;
-            } else
+            }
+            else
             {
                 result = 0;
             }
 
             if(Presenter)
             {
-                return result / 10;
+                return result - result / 10;
             }
             return result;
         }
