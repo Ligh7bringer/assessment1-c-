@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 /********************************************************************************
 * Author: Svetlozar Georgiev, 40203970                                          *
-* Date of last change: 08/10/2017                                               *
-* Attendee Class;                                                                *
+* Date of last change: 25/10/2017                                               *
+* Attendee Class;                                                               *
 * Allows the creation of Attendee objects containing the following properties:  *
 ********************************************************************************/
 

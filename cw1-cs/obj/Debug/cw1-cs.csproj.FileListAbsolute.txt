@@ -20,3 +20,5 @@ C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Debug\cw1-cs.exe
 C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Debug\cw1-cs.pdb
 C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Debug\Invoice.g.cs
 C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Debug\Invoice.baml
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Debug\Certificate.g.cs
+C:\Users\Svetlozar Georgiev\Desktop\cw-2017\cw1-cs\obj\Debug\Certificate.baml

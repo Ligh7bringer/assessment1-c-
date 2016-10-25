@@ -148,6 +148,7 @@ namespace cw1_cs
             }
         }
 
+        //when button invoice is clicked
         private void btn_invoice_Click(object sender, RoutedEventArgs e)
         {
             Invoice InvoiceWin = new Invoice();
@@ -160,11 +161,32 @@ namespace cw1_cs
                     (window as Invoice).lbox_fname.Items.Add(attendee1.FirstName + " " + attendee1.SecondName);
                     (window as Invoice).lbox_institution.Items.Add(attendee1.InstitutionName);
                     (window as Invoice).lbox_conference.Items.Add(attendee1.ConferenceName);
-                    (window as Invoice).lbox_price.Items.Add(attendee1.getCost());
+                    (window as Invoice).lbox_price.Items.Add("£" + attendee1.getCost());
                 }
             }
             //show window and display stuff
             InvoiceWin.ShowDialog();
-        }        
+        }
+
+        //when certificate button is clicked
+        private void btn_cert_Click(object sender, RoutedEventArgs e)
+        {
+            //create a new window
+            Certificate certWin = new Certificate();
+
+            //pass values
+            foreach (Window window in Application.Current.Windows)
+            {
+                if (window.GetType() == typeof(Certificate))
+                {
+                    (window as Certificate).lbox_cert.Items.Add("This is to certify that " + attendee1.FirstName + " " + attendee1.SecondName + " attended " + attendee1.ConferenceName);
+                    if (attendee1.Presenter)
+                    {
+                        (window as Certificate).lbox_cert.Items.Add(" and presented a paper entitled " + attendee1.PaperTitle);
+                    }
+                }
+            }
+            certWin.ShowDialog();
+        }
     }
 }

@@ -12,13 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-
+/********************************************************************************
+* Author: Svetlozar Georgiev, 40203970                                          *
+* Date of last change: 25/10/2017                                               *
+* Invoice window                                                                *
+* Displays an invoice with the attendee's information and the price they need   *
+* to                                                                            *
+********************************************************************************/
 
 namespace cw1_cs
 {
-    /// <summary>
-    /// Interaction logic for Invoice.xaml
-    /// </summary>
     public partial class Invoice : Window
     {
         public Invoice()
