@@ -28,6 +28,7 @@ namespace cw1_cs
             InitializeComponent();
         }
 
+        //close window on button click
         private void button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
