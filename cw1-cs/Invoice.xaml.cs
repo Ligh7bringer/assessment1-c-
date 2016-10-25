@@ -14,7 +14,7 @@ using System.Windows.Shapes;
 
 /********************************************************************************
 * Author: Svetlozar Georgiev, 40203970                                          *
-* Date of last change: 25/10/2017                                               *
+* Date of last change: 25/10/2016                                               *
 * Invoice window                                                                *
 * Displays an invoice with the attendee's information and the price they need   *
 * to                                                                            *

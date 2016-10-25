@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 /********************************************************************************
 * Author: Svetlozar Georgiev, 40203970                                          *
-* Date of last change: 08/10/2017                                               *
+* Date of last change: 25/10/2016                                               *
 * Main window                                                                   *
 * Handles adding of attendees, getting certificates and invoices                *
 ********************************************************************************/

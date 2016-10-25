@@ -6,19 +6,17 @@ using System.Threading.Tasks;
 
 /********************************************************************************
 * Author: Svetlozar Georgiev, 40203970                                          *
-* Date of last change: 25/10/2017                                               *
+* Date of last change: 25/10/2016                                               *
 * Attendee Class;                                                               *
 * Allows the creation of Attendee objects containing the following properties:  *
 ********************************************************************************/
 
 namespace cw1_cs
 {
-    class Attendee
+    class Attendee : Person
     {
         //properties of the class
         private int attendeeref;
-        private string firstname;
-        private string secondname;
         private string institutionname;
         private string conferencename;
         private string registrationtype;
@@ -37,32 +35,6 @@ namespace cw1_cs
                     throw new ArgumentException("Attendee Reference must be in the range 40000 - 60000");
                 } 
                 attendeeref = value;
-            }
-        }
-
-        public string FirstName
-        {
-            get { return firstname; }
-            set
-            {
-                if(String.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentException("First name is a mandatory field.");
-                }
-                firstname = value;
-            }
-        }
-
-        public string SecondName
-        {
-            get { return secondname; }
-            set
-            {
-                if(String.IsNullOrEmpty(value))
-                {
-                    throw new ArgumentException("Last name is a mandatory field.");
-                }
-                secondname = value;
             }
         }
 

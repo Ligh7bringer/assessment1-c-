@@ -12,11 +12,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+/********************************************************************************
+* Author: Svetlozar Georgiev, 40203970                                          *
+* Date of last change:25/10/2016                                                *
+* Certificate                                                                   *
+* Displays certificat of attendance                                             *
+********************************************************************************/
+
 namespace cw1_cs
 {
-    /// <summary>
-    /// Interaction logic for Certificate.xaml
-    /// </summary>
     public partial class Certificate : Window
     {
         public Certificate()
